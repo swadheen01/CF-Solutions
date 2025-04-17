@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"e:\\coding\\Codechef Contest\\b.cpp","tests":[{"id":1738162317841,"input":"2\n6\nRGBRGG\n3\nRRR","output":""},{"id":1738184906064,"input":"1\n5\nRRRRR","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\coding\\Codechef Contest\\b.cpp","group":"local","local":true}

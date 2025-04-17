@@ -27,7 +27,7 @@ void sir()
         cin>>v[i];
     }
     bool ok = true;
-
+    //vector<pair<ll,ll>>vec;
     ll mx=-1;
     ll ind;
     for(ll i=0; i<n; i++)
@@ -42,12 +42,18 @@ void sir()
         }
     }
     if(ok==true || n==1) cout<<0<<endl;
-    else cout<<mx+1<<endl;
-
-        //ll ans = 1 + mx; //SOBAIKE 1 DIYE SWAP KORBO, AGE BOROTAR JAYGAY JE ACHE TAKE, THEN BORO TAKE
+    else{
         
-        //cout<<ans<<endl;
-    
+        //ll mx = vec[vec.size()-1].first;
+
+        ll ans = 1 + mx; //SOBAIKE 1 DIYE SWAP KORBO, AGE BOROTAR JAYGAY JE ACHE TAKE, THEN BORO TAKE
+        // if(v[mx-1] != 1) ans += v[mx-1];
+
+        // ans += mx;
+
+        //cout<<mx<<endl;
+        cout<<ans<<endl;
+    }
 }
 
 int main() {

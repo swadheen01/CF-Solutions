@@ -1,0 +1,1 @@
+{"name":"Local: RGB","url":"c:\\Users\\UAE LAPTOP BAZAR\\Desktop\\Python\\RGB.py","tests":[{"id":1704571677892,"input":"3\n1\n2\n3","output":"GRB\nGBR\nBGR"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\UAE LAPTOP BAZAR\\Desktop\\Python\\RGB.py","group":"local","local":true}

@@ -1,6 +1,6 @@
 /*
  *Copyright (c) Swadheen Islam Robi (SIR01)
- *Created on Tue Feb 04 2025 11:56:26 AM
+ *Created on Mon Jan 20 2025 3:02:09 PM
  */
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,11 +19,16 @@ using namespace std;
 
 void sir()
 {
-    // int y
-    ll n, k; cin>>n>>k;
-    if((n/k)%2) yes;
-    else no;
-
+    ll n; cin>>n;
+    if(n&1){
+        cout<<(n/2)<<endl;
+        for(ll i=1; i+1<=(n/2); i++) cout<<2<<" ";
+        cout<<3<<endl;
+    }
+    else{
+        cout<<n/2<<endl;
+        for(ll i=1; i<=n/2; i++) cout<<2<<" ";
+    }
 }
 
 int main() {

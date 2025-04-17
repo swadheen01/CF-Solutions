@@ -27,7 +27,7 @@ class GitAutoPushHandler(FileSystemEventHandler):
             print("[!] Git push failed:", e)
 
 if __name__ == "__main__":
-    folder_to_watch = os.getcwd()
+    folder_to_watch = r"C:/Users/sirsw/Desktop/Codeforces/CF-Solutions"
     event_handler = GitAutoPushHandler()
     observer = Observer()
     observer.schedule(event_handler, folder_to_watch, recursive=True)

@@ -1,0 +1,1 @@
+{"name":"Local: pass_seriousoj","url":"c:\\Users\\UAE LAPTOP BAZAR\\Desktop\\Python\\pass_seriousoj.py","tests":[{"id":1704226568771,"input":"3\n1qazZAQ!\n1avbac\n3554535","output":"valid\ninvalid\ninvalid"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\UAE LAPTOP BAZAR\\Desktop\\Python\\pass_seriousoj.py","group":"local","local":true}
